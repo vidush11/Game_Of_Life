@@ -68,10 +68,11 @@ for i in range(1000):
     plt.xlim((0,n-1))
     plt.ylim((0,n-1))
 
-    plt.imshow(~(li), cmap='gray')
+    plt.imshow(~(li), cmap='gray') #as 1 means white and 0 means black
     plt.pause(0.01)
     plt.cla()
 
+plt.close()
 plt.show()
 # '''
 # x_values=[]
